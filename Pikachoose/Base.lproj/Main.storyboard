@@ -96,7 +96,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Camera" selectedImage="first" id="BLF-8m-vX2"/>
+                    <tabBarItem key="tabBarItem" title="Camera" image="first" id="BLF-8m-vX2"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hd8-iB-bAF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -207,7 +207,7 @@
         <scene sceneID="GTU-6N-wBg">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="N2R-XA-pEf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Invites" selectedImage="second" id="4b1-WJ-TE1"/>
+                    <tabBarItem key="tabBarItem" title="Invites" image="second" id="4b1-WJ-TE1"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="AwQ-0M-KV0">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -226,7 +226,7 @@
         <scene sceneID="0FM-Kb-vCH">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4K4-U7-tiO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" selectedImage="first" id="LUq-ke-Dcu"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="first" id="LUq-ke-Dcu"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Jx3-TZ-ZXU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>

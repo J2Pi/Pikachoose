@@ -1,0 +1,34 @@
+Plan:
+
+1. Setup Users with Parse
+  Login, Registration, Landing Page
+2. Edit profile and basic settings
+  Settings ->
+    Change password
+    Change bio descriptions
+  Show the stuff on the profile tab
+    Small icon placeholder
+    Name
+    Username
+    Location
+    Bio
+3. Adding friends under friends tab
+  Finding friends by username
+  Adding them
+    Sends an invite
+4. Accepting invites, etc
+
+5. Creating an album
+  Adding people to the album
+  Adding list of albums to each user
+  When each user clicks albums, they should all their albums
+  
+  5i. Viewing album
+    Tabs for gallery and information
+    Editing etc,
+
+6. Taking a picture
+  Adding caption/picking album
+  Uploading
+
+Done
