@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		591F9EE119E000F000E1520E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591F9EE019E000F000E1520E /* AudioToolbox.framework */; };
+		591F9EE319E000F800E1520E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591F9EE219E000F800E1520E /* CFNetwork.framework */; };
+		591F9EE519E000FF00E1520E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591F9EE419E000FF00E1520E /* CoreGraphics.framework */; };
+		591F9EE719E0010F00E1520E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 591F9EE619E0010F00E1520E /* libz.dylib */; };
+		591F9EE919E0013100E1520E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591F9EE819E0013100E1520E /* MobileCoreServices.framework */; };
+		591F9EEB19E0013900E1520E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591F9EEA19E0013900E1520E /* QuartzCore.framework */; };
+		591F9EED19E0014000E1520E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591F9EEC19E0014000E1520E /* Security.framework */; };
+		591F9EEF19E0014700E1520E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591F9EEE19E0014700E1520E /* StoreKit.framework */; };
+		591F9EF119E0014F00E1520E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591F9EF019E0014F00E1520E /* SystemConfiguration.framework */; };
+		591F9EFC19E005F400E1520E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591F9EFA19E005F400E1520E /* Bolts.framework */; };
+		591F9EFD19E005F400E1520E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591F9EFB19E005F400E1520E /* Parse.framework */; };
 		E8AE091119DFD18700AEFFEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AE091019DFD18700AEFFEC /* AppDelegate.swift */; };
 		E8AE091319DFD18700AEFFEC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AE091219DFD18700AEFFEC /* FirstViewController.swift */; };
 		E8AE091519DFD18700AEFFEC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AE091419DFD18700AEFFEC /* SecondViewController.swift */; };
@@ -30,6 +41,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		591F9EE019E000F000E1520E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		591F9EE219E000F800E1520E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		591F9EE419E000FF00E1520E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		591F9EE619E0010F00E1520E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		591F9EE819E0013100E1520E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		591F9EEA19E0013900E1520E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		591F9EEC19E0014000E1520E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		591F9EEE19E0014700E1520E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		591F9EF019E0014F00E1520E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		591F9EFA19E005F400E1520E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		591F9EFB19E005F400E1520E /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		591F9EFE19E0064100E1520E /* Pikachoose-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pikachoose-Bridging-Header.h"; sourceTree = "<group>"; };
 		E8AE090B19DFD18600AEFFEC /* Pikachoose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pikachoose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8AE090F19DFD18700AEFFEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8AE091019DFD18700AEFFEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +74,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				591F9EF119E0014F00E1520E /* SystemConfiguration.framework in Frameworks */,
+				591F9EEF19E0014700E1520E /* StoreKit.framework in Frameworks */,
+				591F9EED19E0014000E1520E /* Security.framework in Frameworks */,
+				591F9EEB19E0013900E1520E /* QuartzCore.framework in Frameworks */,
+				591F9EE919E0013100E1520E /* MobileCoreServices.framework in Frameworks */,
+				591F9EFC19E005F400E1520E /* Bolts.framework in Frameworks */,
+				591F9EFD19E005F400E1520E /* Parse.framework in Frameworks */,
+				591F9EE719E0010F00E1520E /* libz.dylib in Frameworks */,
+				591F9EE519E000FF00E1520E /* CoreGraphics.framework in Frameworks */,
+				591F9EE319E000F800E1520E /* CFNetwork.framework in Frameworks */,
+				591F9EE119E000F000E1520E /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,9 +101,21 @@
 		E8AE090219DFD18600AEFFEC = {
 			isa = PBXGroup;
 			children = (
+				591F9EFA19E005F400E1520E /* Bolts.framework */,
+				591F9EFB19E005F400E1520E /* Parse.framework */,
+				591F9EF019E0014F00E1520E /* SystemConfiguration.framework */,
+				591F9EEE19E0014700E1520E /* StoreKit.framework */,
+				591F9EEC19E0014000E1520E /* Security.framework */,
+				591F9EEA19E0013900E1520E /* QuartzCore.framework */,
+				591F9EE819E0013100E1520E /* MobileCoreServices.framework */,
+				591F9EE619E0010F00E1520E /* libz.dylib */,
+				591F9EE419E000FF00E1520E /* CoreGraphics.framework */,
+				591F9EE219E000F800E1520E /* CFNetwork.framework */,
+				591F9EE019E000F000E1520E /* AudioToolbox.framework */,
 				E8AE090D19DFD18600AEFFEC /* Pikachoose */,
 				E8AE092519DFD18700AEFFEC /* PikachooseTests */,
 				E8AE090C19DFD18600AEFFEC /* Products */,
+				591F9EFE19E0064100E1520E /* Pikachoose-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -352,9 +398,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/sahilpatel/Downloads/parse-library-1.4.1",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Pikachoose/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pikachoose-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -362,9 +417,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/sahilpatel/Downloads/parse-library-1.4.1",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Pikachoose/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pikachoose-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -421,6 +484,7 @@
 				E8AE092E19DFD18700AEFFEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8AE092F19DFD18700AEFFEC /* Build configuration list for PBXNativeTarget "PikachooseTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +493,7 @@
 				E8AE093119DFD18700AEFFEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
