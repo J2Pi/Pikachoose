@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        Parse.setApplicationId("xuKMbpIWmVEPpRId1A1hWNZ1QHq2mwKQqQIlp4H6", clientKey: "uTa5uYqEBiCg7PeXyAcQ2wmRbvCaNxkNoEzgat1x")
+        Parse.setApplicationId("qw6fZ8tsK77aJIKowe0vtwPRh09Qa8TBieUGX3QG", clientKey: "vowK3dv58PMKRYWdql7Ehh9GNlryAA41xX7skXzj")
         PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
         
         // if user is signed in, redirect to tab view. otherwise open up login page
