@@ -9,13 +9,15 @@
 import UIKit
 
 class LoginViewController: UIViewController, PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate {
+    
+    var logInController: PFLogInViewController = PFLogInViewController()
+    var signUpController: PFSignUpViewController = PFSignUpViewController()
+    
     override func viewDidAppear(animated: Bool) {
-        var logInController: PFLogInViewController = PFLogInViewController()
-        logInController.delegate = self
-        var signUpController: PFSignUpViewController = PFSignUpViewController()
-        signUpController.delegate = self
-        logInController.signUpController = signUpController
-        self.presentViewController(logInController, animated: false, completion: nil)
+        self.logInController.delegate = self
+        self.signUpController.delegate = self
+        self.logInController.signUpController = signUpController
+        //self.presentViewController(logInController, animated: false, completion: nil)
     }
     
     override func viewDidLoad() {
@@ -24,6 +26,16 @@ class LoginViewController: UIViewController, PFLogInViewControllerDelegate, PFSi
         let color: UIColor = UIColor(red: 255, green: 255, blue: 255, alpha: 1.0)
         self.view.backgroundColor = color
         self.view.addSubview(hello)
+        let button = UIButton.buttonWithType(UIButtonType.System) as UIButton
+        button.frame = CGRect(x:10, y:300, width:300, height:30)
+        button.backgroundColor = UIColor.whiteColor()
+        button.setTitle("Login", forState: UIControlState.Normal)
+        button.addTarget(self, action: "openLogin:", forControlEvents: UIControlEvents.TouchUpInside)
+        self.view.addSubview(button)
+    }
+    
+    func openLogin(sender:UIButton!) {
+        self.presentViewController(self.logInController, animated: true, completion: nil)
     }
     
     func logInViewController(logInController: PFLogInViewController!, shouldBeginLogInWithUsername username: String!, password: String!) -> Bool {
