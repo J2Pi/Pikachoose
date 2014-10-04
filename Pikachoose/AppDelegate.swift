@@ -18,6 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         Parse.setApplicationId("xuKMbpIWmVEPpRId1A1hWNZ1QHq2mwKQqQIlp4H6", clientKey: "uTa5uYqEBiCg7PeXyAcQ2wmRbvCaNxkNoEzgat1x")
         PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+        
+        // set up initial view controller
+        let root: LoginViewController = LoginViewController()
+        let nav: UINavigationController = UINavigationController(rootViewController: root)
+        self.window?.rootViewController = root
         return true
     }
 

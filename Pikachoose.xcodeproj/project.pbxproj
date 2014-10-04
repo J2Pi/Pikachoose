@@ -18,6 +18,9 @@
 		591F9EF119E0014F00E1520E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591F9EF019E0014F00E1520E /* SystemConfiguration.framework */; };
 		591F9EFC19E005F400E1520E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591F9EFA19E005F400E1520E /* Bolts.framework */; };
 		591F9EFD19E005F400E1520E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591F9EFB19E005F400E1520E /* Parse.framework */; };
+		591F9F0219E06EAF00E1520E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591F9F0119E06EAF00E1520E /* LoginViewController.swift */; };
+		591F9F0419E0783500E1520E /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591F9F0319E0783500E1520E /* Social.framework */; };
+		591F9F0619E0784300E1520E /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591F9F0519E0784300E1520E /* Accounts.framework */; };
 		E8AE091119DFD18700AEFFEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AE091019DFD18700AEFFEC /* AppDelegate.swift */; };
 		E8AE091319DFD18700AEFFEC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AE091219DFD18700AEFFEC /* FirstViewController.swift */; };
 		E8AE091519DFD18700AEFFEC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AE091419DFD18700AEFFEC /* SecondViewController.swift */; };
@@ -53,6 +56,9 @@
 		591F9EFA19E005F400E1520E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		591F9EFB19E005F400E1520E /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		591F9EFE19E0064100E1520E /* Pikachoose-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pikachoose-Bridging-Header.h"; sourceTree = "<group>"; };
+		591F9F0119E06EAF00E1520E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		591F9F0319E0783500E1520E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		591F9F0519E0784300E1520E /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		E8AE090B19DFD18600AEFFEC /* Pikachoose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pikachoose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8AE090F19DFD18700AEFFEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8AE091019DFD18700AEFFEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				591F9F0619E0784300E1520E /* Accounts.framework in Frameworks */,
+				591F9F0419E0783500E1520E /* Social.framework in Frameworks */,
 				591F9EF119E0014F00E1520E /* SystemConfiguration.framework in Frameworks */,
 				591F9EEF19E0014700E1520E /* StoreKit.framework in Frameworks */,
 				591F9EED19E0014000E1520E /* Security.framework in Frameworks */,
@@ -101,6 +109,8 @@
 		E8AE090219DFD18600AEFFEC = {
 			isa = PBXGroup;
 			children = (
+				591F9F0519E0784300E1520E /* Accounts.framework */,
+				591F9F0319E0783500E1520E /* Social.framework */,
 				591F9EFA19E005F400E1520E /* Bolts.framework */,
 				591F9EFB19E005F400E1520E /* Parse.framework */,
 				591F9EF019E0014F00E1520E /* SystemConfiguration.framework */,
@@ -133,6 +143,7 @@
 			children = (
 				E8AE091019DFD18700AEFFEC /* AppDelegate.swift */,
 				E8AE091219DFD18700AEFFEC /* FirstViewController.swift */,
+				591F9F0119E06EAF00E1520E /* LoginViewController.swift */,
 				E8AE091419DFD18700AEFFEC /* SecondViewController.swift */,
 				E8AE093A19DFEA3400AEFFEC /* ThirdViewController.swift */,
 				E8AE093C19DFEB2C00AEFFEC /* FourthViewController.swift */,
@@ -270,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				591F9F0219E06EAF00E1520E /* LoginViewController.swift in Sources */,
 				E8AE093F19DFEB3600AEFFEC /* FifthViewController.swift in Sources */,
 				E8AE091519DFD18700AEFFEC /* SecondViewController.swift in Sources */,
 				E8AE091119DFD18700AEFFEC /* AppDelegate.swift in Sources */,
