@@ -28,7 +28,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             //let tvc = storyBoard.instantiateViewControllerWithIdentifier("MainTabBarThing") as UITabBarController
             //self.window?.rootViewController = tvc
         } else {
-            println(self.tabViewController)
             let root: LoginViewController = LoginViewController()
             self.window?.rootViewController = root
         }
