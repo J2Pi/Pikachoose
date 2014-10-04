@@ -14,10 +14,15 @@ class LoginViewController: UIViewController, PFLogInViewControllerDelegate, PFSi
     var signUpController: PFSignUpViewController = PFSignUpViewController()
     
     override func viewDidAppear(animated: Bool) {
-        self.logInController.delegate = self
-        self.signUpController.delegate = self
-        self.logInController.signUpController = signUpController
-        //self.presentViewController(logInController, animated: false, completion: nil)
+        if (PFUser.currentUser() != nil) {
+            let appDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+            var first = appDelegate.tabViewController!;
+            self.presentViewController(first, animated: true, completion: nil)
+        } else {
+            self.logInController.delegate = self
+            self.signUpController.delegate = self
+            self.logInController.signUpController = signUpController
+        }
     }
     
     override func viewDidLoad() {
@@ -51,9 +56,6 @@ class LoginViewController: UIViewController, PFLogInViewControllerDelegate, PFSi
     
     func logInViewController(logInController: PFLogInViewController!, didLogInUser user: PFUser!) {
         self.dismissViewControllerAnimated(true, completion: nil)
-        let appDelegate = UIApplication.sharedApplication().delegate as AppDelegate
-        var first = appDelegate.tabViewController!;
-        self.presentViewController(first, animated: true, completion: nil)
     }
     
     func signUpViewController(signUpController: PFSignUpViewController!, shouldBeginSignUp info: [NSObject : AnyObject]!) -> Bool {

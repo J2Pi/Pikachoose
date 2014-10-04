@@ -22,12 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // if user is signed in, redirect to tab view. otherwise open up login page
         self.tabViewController = self.window?.rootViewController;
-        if (PFUser.currentUser() != nil) {
-            // let the rootViewController reside as the tab view controller
-            //let storyBoard = UIStoryboard(name:"MainStoryboard", bundle:nil)
-            //let tvc = storyBoard.instantiateViewControllerWithIdentifier("MainTabBarThing") as UITabBarController
-            //self.window?.rootViewController = tvc
-        } else {
+        if (PFUser.currentUser() == nil) {
             let root: LoginViewController = LoginViewController()
             self.window?.rootViewController = root
         }
