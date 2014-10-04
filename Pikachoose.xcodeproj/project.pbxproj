@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8AE091119DFD18700AEFFEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AE091019DFD18700AEFFEC /* AppDelegate.swift */; };
+		E8AE091319DFD18700AEFFEC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AE091219DFD18700AEFFEC /* FirstViewController.swift */; };
+		E8AE091519DFD18700AEFFEC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AE091419DFD18700AEFFEC /* SecondViewController.swift */; };
+		E8AE091819DFD18700AEFFEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8AE091619DFD18700AEFFEC /* Main.storyboard */; };
+		E8AE091A19DFD18700AEFFEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8AE091919DFD18700AEFFEC /* Images.xcassets */; };
+		E8AE091D19DFD18700AEFFEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8AE091B19DFD18700AEFFEC /* LaunchScreen.xib */; };
+		E8AE092919DFD18700AEFFEC /* PikachooseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AE092819DFD18700AEFFEC /* PikachooseTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8AE092319DFD18700AEFFEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8AE090319DFD18600AEFFEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8AE090A19DFD18600AEFFEC;
+			remoteInfo = Pikachoose;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8AE090B19DFD18600AEFFEC /* Pikachoose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pikachoose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8AE090F19DFD18700AEFFEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8AE091019DFD18700AEFFEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8AE091219DFD18700AEFFEC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		E8AE091419DFD18700AEFFEC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E8AE091719DFD18700AEFFEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8AE091919DFD18700AEFFEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E8AE091C19DFD18700AEFFEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E8AE092219DFD18700AEFFEC /* PikachooseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PikachooseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8AE092719DFD18700AEFFEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8AE092819DFD18700AEFFEC /* PikachooseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PikachooseTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8AE090819DFD18600AEFFEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8AE091F19DFD18700AEFFEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8AE090219DFD18600AEFFEC = {
+			isa = PBXGroup;
+			children = (
+				E8AE090D19DFD18600AEFFEC /* Pikachoose */,
+				E8AE092519DFD18700AEFFEC /* PikachooseTests */,
+				E8AE090C19DFD18600AEFFEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8AE090C19DFD18600AEFFEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8AE090B19DFD18600AEFFEC /* Pikachoose.app */,
+				E8AE092219DFD18700AEFFEC /* PikachooseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8AE090D19DFD18600AEFFEC /* Pikachoose */ = {
+			isa = PBXGroup;
+			children = (
+				E8AE091019DFD18700AEFFEC /* AppDelegate.swift */,
+				E8AE091219DFD18700AEFFEC /* FirstViewController.swift */,
+				E8AE091419DFD18700AEFFEC /* SecondViewController.swift */,
+				E8AE091619DFD18700AEFFEC /* Main.storyboard */,
+				E8AE091919DFD18700AEFFEC /* Images.xcassets */,
+				E8AE091B19DFD18700AEFFEC /* LaunchScreen.xib */,
+				E8AE090E19DFD18600AEFFEC /* Supporting Files */,
+			);
+			path = Pikachoose;
+			sourceTree = "<group>";
+		};
+		E8AE090E19DFD18600AEFFEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8AE090F19DFD18700AEFFEC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8AE092519DFD18700AEFFEC /* PikachooseTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8AE092819DFD18700AEFFEC /* PikachooseTests.swift */,
+				E8AE092619DFD18700AEFFEC /* Supporting Files */,
+			);
+			path = PikachooseTests;
+			sourceTree = "<group>";
+		};
+		E8AE092619DFD18700AEFFEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8AE092719DFD18700AEFFEC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8AE090A19DFD18600AEFFEC /* Pikachoose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8AE092C19DFD18700AEFFEC /* Build configuration list for PBXNativeTarget "Pikachoose" */;
+			buildPhases = (
+				E8AE090719DFD18600AEFFEC /* Sources */,
+				E8AE090819DFD18600AEFFEC /* Frameworks */,
+				E8AE090919DFD18600AEFFEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pikachoose;
+			productName = Pikachoose;
+			productReference = E8AE090B19DFD18600AEFFEC /* Pikachoose.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8AE092119DFD18700AEFFEC /* PikachooseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8AE092F19DFD18700AEFFEC /* Build configuration list for PBXNativeTarget "PikachooseTests" */;
+			buildPhases = (
+				E8AE091E19DFD18700AEFFEC /* Sources */,
+				E8AE091F19DFD18700AEFFEC /* Frameworks */,
+				E8AE092019DFD18700AEFFEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8AE092419DFD18700AEFFEC /* PBXTargetDependency */,
+			);
+			name = PikachooseTests;
+			productName = PikachooseTests;
+			productReference = E8AE092219DFD18700AEFFEC /* PikachooseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8AE090319DFD18600AEFFEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Pikachoose Inc";
+				TargetAttributes = {
+					E8AE090A19DFD18600AEFFEC = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					E8AE092119DFD18700AEFFEC = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = E8AE090A19DFD18600AEFFEC;
+					};
+				};
+			};
+			buildConfigurationList = E8AE090619DFD18600AEFFEC /* Build configuration list for PBXProject "Pikachoose" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8AE090219DFD18600AEFFEC;
+			productRefGroup = E8AE090C19DFD18600AEFFEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8AE090A19DFD18600AEFFEC /* Pikachoose */,
+				E8AE092119DFD18700AEFFEC /* PikachooseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8AE090919DFD18600AEFFEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8AE091819DFD18700AEFFEC /* Main.storyboard in Resources */,
+				E8AE091D19DFD18700AEFFEC /* LaunchScreen.xib in Resources */,
+				E8AE091A19DFD18700AEFFEC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8AE092019DFD18700AEFFEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8AE090719DFD18600AEFFEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8AE091519DFD18700AEFFEC /* SecondViewController.swift in Sources */,
+				E8AE091119DFD18700AEFFEC /* AppDelegate.swift in Sources */,
+				E8AE091319DFD18700AEFFEC /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8AE091E19DFD18700AEFFEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8AE092919DFD18700AEFFEC /* PikachooseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8AE092419DFD18700AEFFEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8AE090A19DFD18600AEFFEC /* Pikachoose */;
+			targetProxy = E8AE092319DFD18700AEFFEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8AE091619DFD18700AEFFEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8AE091719DFD18700AEFFEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8AE091B19DFD18700AEFFEC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8AE091C19DFD18700AEFFEC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8AE092A19DFD18700AEFFEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8AE092B19DFD18700AEFFEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8AE092D19DFD18700AEFFEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pikachoose/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E8AE092E19DFD18700AEFFEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pikachoose/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E8AE093019DFD18700AEFFEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PikachooseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pikachoose.app/Pikachoose";
+			};
+			name = Debug;
+		};
+		E8AE093119DFD18700AEFFEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PikachooseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pikachoose.app/Pikachoose";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8AE090619DFD18600AEFFEC /* Build configuration list for PBXProject "Pikachoose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8AE092A19DFD18700AEFFEC /* Debug */,
+				E8AE092B19DFD18700AEFFEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8AE092C19DFD18700AEFFEC /* Build configuration list for PBXNativeTarget "Pikachoose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8AE092D19DFD18700AEFFEC /* Debug */,
+				E8AE092E19DFD18700AEFFEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E8AE092F19DFD18700AEFFEC /* Build configuration list for PBXNativeTarget "PikachooseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8AE093019DFD18700AEFFEC /* Debug */,
+				E8AE093119DFD18700AEFFEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8AE090319DFD18600AEFFEC /* Project object */;
+}
