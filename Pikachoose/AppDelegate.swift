@@ -9,9 +9,10 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var tabViewController: UIViewController?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
@@ -19,11 +20,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate, PFLogInViewControllerDele
         Parse.setApplicationId("xuKMbpIWmVEPpRId1A1hWNZ1QHq2mwKQqQIlp4H6", clientKey: "uTa5uYqEBiCg7PeXyAcQ2wmRbvCaNxkNoEzgat1x")
         PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
         
-        // set up initial view controller
-        let root: LoginViewController = LoginViewController()
-        let nav: UINavigationController = UINavigationController(rootViewController: root)
-        self.window?.rootViewController = root
-
+        // if user is signed in, redirect to tab view. otherwise open up login page
+        
+        if (PFUser.currentUser() != nil) {
+            // let the rootViewController reside as the tab view controller
+            //let storyBoard = UIStoryboard(name:"MainStoryboard", bundle:nil)
+            //let tvc = storyBoard.instantiateViewControllerWithIdentifier("MainTabBarThing") as UITabBarController
+            //self.window?.rootViewController = tvc
+        } else {
+            self.tabViewController = self.window?.rootViewController;
+            let root: LoginViewController = LoginViewController()
+            self.window?.rootViewController = root
+        }
+        
         return true
     }
 

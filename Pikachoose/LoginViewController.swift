@@ -10,17 +10,12 @@ import UIKit
 
 class LoginViewController: UIViewController, PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate {
     override func viewDidAppear(animated: Bool) {
-        if (PFUser.currentUser() == nil) {
-            var logInController: PFLogInViewController = PFLogInViewController()
-            logInController.delegate = self
-            var signUpController: PFSignUpViewController = PFSignUpViewController()
-            signUpController.delegate = self
-            logInController.signUpController = signUpController
-            self.presentViewController(logInController, animated: false, completion: nil)
-        } else {
-            let appDelegate = UIApplication.sharedApplication().delegate as AppDelegate
-            self.presentViewController(appDelegate.tabBarController, animated: true, completion: nil)
-        }
+        var logInController: PFLogInViewController = PFLogInViewController()
+        logInController.delegate = self
+        var signUpController: PFSignUpViewController = PFSignUpViewController()
+        signUpController.delegate = self
+        logInController.signUpController = signUpController
+        self.presentViewController(logInController, animated: false, completion: nil)
     }
     
     override func viewDidLoad() {
@@ -44,7 +39,8 @@ class LoginViewController: UIViewController, PFLogInViewControllerDelegate, PFSi
     
     func logInViewController(logInController: PFLogInViewController!, didLogInUser user: PFUser!) {
         self.dismissViewControllerAnimated(true, completion: nil)
-        var first: FirstViewController = FirstViewController()
+        let appDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+        var first = appDelegate.tabViewController!;
         self.presentViewController(first, animated: true, completion: nil)
     }
     
