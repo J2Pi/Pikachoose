@@ -9,7 +9,7 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate {
 
     var window: UIWindow?
 
@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let root: LoginViewController = LoginViewController()
         let nav: UINavigationController = UINavigationController(rootViewController: root)
         self.window?.rootViewController = root
+
         return true
     }
 
