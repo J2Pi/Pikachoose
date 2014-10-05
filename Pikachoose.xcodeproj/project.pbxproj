@@ -21,6 +21,7 @@
 		591F9F0219E06EAF00E1520E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591F9F0119E06EAF00E1520E /* LoginViewController.swift */; };
 		591F9F0419E0783500E1520E /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591F9F0319E0783500E1520E /* Social.framework */; };
 		591F9F0619E0784300E1520E /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591F9F0519E0784300E1520E /* Accounts.framework */; };
+		E88C18CA19E0F91300EE1138 /* addAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88C18C919E0F91300EE1138 /* addAlbumViewController.swift */; };
 		E8AE091119DFD18700AEFFEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AE091019DFD18700AEFFEC /* AppDelegate.swift */; };
 		E8AE091319DFD18700AEFFEC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AE091219DFD18700AEFFEC /* FirstViewController.swift */; };
 		E8AE091519DFD18700AEFFEC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AE091419DFD18700AEFFEC /* SecondViewController.swift */; };
@@ -59,6 +60,7 @@
 		591F9F0119E06EAF00E1520E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		591F9F0319E0783500E1520E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		591F9F0519E0784300E1520E /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		E88C18C919E0F91300EE1138 /* addAlbumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addAlbumViewController.swift; sourceTree = "<group>"; };
 		E8AE090B19DFD18600AEFFEC /* Pikachoose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pikachoose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8AE090F19DFD18700AEFFEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8AE091019DFD18700AEFFEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				E8AE093A19DFEA3400AEFFEC /* ThirdViewController.swift */,
 				E8AE093C19DFEB2C00AEFFEC /* FourthViewController.swift */,
 				E8AE093E19DFEB3600AEFFEC /* FifthViewController.swift */,
+				E88C18C919E0F91300EE1138 /* addAlbumViewController.swift */,
 				E8AE091619DFD18700AEFFEC /* Main.storyboard */,
 				E8AE091919DFD18700AEFFEC /* Images.xcassets */,
 				E8AE091B19DFD18700AEFFEC /* LaunchScreen.xib */,
@@ -281,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E88C18CA19E0F91300EE1138 /* addAlbumViewController.swift in Sources */,
 				591F9F0219E06EAF00E1520E /* LoginViewController.swift in Sources */,
 				E8AE093F19DFEB3600AEFFEC /* FifthViewController.swift in Sources */,
 				E8AE091519DFD18700AEFFEC /* SecondViewController.swift in Sources */,
